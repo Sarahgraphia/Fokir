@@ -1,0 +1,975 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#home {
+    background-image: url(img/slider/beg.jpg);
+    background-size: cover;
+
+
+}
+
+#home .overlay {
+    background-color: rgba(0, 0, 0, 0.616);
+    height: 630px;
+}
+
+.navbar {
+
+    background-color: rgba(0, 0, 0, 0.151);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+
+}
+
+.container-nav {
+    width: 90%;
+    margin: auto;
+}
+
+#home .navbar .logo a {
+    text-decoration: none;
+    color: #ff305b;
+    font-size: 25px;
+}
+
+#home .navbar .logo {
+    float: left;
+    padding: 30px;
+    font-size: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home .navbar .elements {
+    float: right;
+
+}
+
+
+#home .navbar .elements ul li {
+    list-style-type: none;
+    float: left;
+    padding: 30px 15px;
+
+}
+
+#home .navbar .elements ul li a {
+
+    transition-property: all;
+    transition-duration: 0.7s;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#home .navbar .elements ul li a:hover {
+    color: #ff305b;
+}
+
+.clr {
+    clear: both;
+}
+
+#home .caption {
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+
+#home .caption h1 {
+    color: #ff305b;
+    font-size: 60px;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+}
+
+#home .caption h3,
+p {
+    color: #e6d7da;
+    font-size: 25px;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+
+}
+
+
+/* ************** END OF HOME************/
+
+
+
+/*************START OF ABOUT*************/
+#about {
+    margin: 50px 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+
+
+.container .about-img {
+    width: 35%;
+
+    border: transparent solid 10px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+
+
+
+}
+
+.container .about-img img {
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.container .about-img .layout {
+    background-color: rgba(0, 0, 0, 0.567);
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transition: all 0.7s;
+
+}
+
+.container .about-img:hover .layout {
+
+    top: 0;
+
+}
+
+.container .about-img .layout img {
+
+    width: 40px;
+    height: 40px;
+    margin: 230px 8px;
+
+}
+
+
+/*
+.container .about-img .border {
+    margin: 40px 0;
+    border: 9px #555 solid;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -50px;
+    left:-30px;
+    
+}
+
+*/
+
+.container .about-info {
+    width: 65%;
+    font-family: sans-serif;
+    padding: 20px 50px 20px 50px;
+    color: rgba(0, 0, 0, 0.993);
+    float: right;
+
+}
+
+.clr {
+    clear: both;
+}
+
+.container .about-info h2 {
+    font-size: 30px;
+    padding-left: 12px;
+}
+
+.container .about-info p {
+    padding: 20px 0;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.568);
+    border-bottom: rgba(128, 128, 128, 0.782) dashed 2px;
+}
+
+.container .about-info span {
+
+    color: #ff305b;
+
+}
+
+.container .dev-info ul li {
+
+    list-style-type: none;
+    padding: 12px 25px;
+    color: rgba(0, 0, 0, 0.781);
+
+
+
+}
+
+.container .dev-info {
+    padding: 10px 0;
+}
+
+.container .dev-info span {
+
+    color: rgba(0, 0, 0, 0.726);
+    font-weight: bolder;
+
+}
+
+.container .dev-info .group1 {
+    float: left;
+
+}
+
+
+.container .dev-info button {
+
+    color: #fff;
+    background-color: #ff305b;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 13px 25px;
+    border: 0px;
+    border-radius: 6px;
+    margin: 10px;
+    transition-property: all;
+    transition-duration: 0.5s;
+
+}
+
+.container .dev-info button:hover {
+
+    background-color: red;
+}
+
+.container .dev-info .buttons {
+    margin-left: 20px;
+
+
+}
+
+
+.container .dev-info .buttons a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.container .dev-info button img {
+    width: 25px;
+    height: 25px;
+}
+
+/********END OF ABOUT SECTION STYLING*********/
+
+
+/********SERVICES SECTION *********/
+
+.title {
+    text-align: center;
+
+}
+
+.title h2 {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 5px 0;
+}
+
+.title div {
+    border: #ff305b 1px solid;
+    margin: 4px auto;
+
+}
+
+.title .small {
+
+    width: 10%;
+}
+
+.title .med {
+
+    width: 20%;
+}
+
+#services {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    margin: 50px 0;
+}
+
+#services .container {
+
+    font-family: sans-serif;
+}
+
+#services .service {
+    text-align: center;
+    width: 25%;
+    float: left;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+#services .service:hover {
+
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 1px 3px #888888;
+
+}
+
+#services .service .service-info p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.712);
+}
+
+#services .service .img-service {
+
+    padding: 20px;
+}
+
+#services .service .img-service img {
+    width: 50px;
+    height: 50px;
+    transition-property: all;
+    transition-duration: 0.7s;
+}
+
+#services .service:hover .img-service img {
+
+    transform: scale(1.2);
+}
+
+
+
+/********PORTFOLO SECTION *********/
+
+#portfolio {
+    height: auto;
+    margin: 50px 0;
+
+
+
+}
+
+#portfolio h2 {
+    text-align: center;
+    padding: 20px 0;
+    font-family: sans-serif;
+    color: rgba(28, 27, 27, 0.823);
+    font-size: 37px;
+}
+
+#portfolio .product {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    margin: 10px 0;
+
+}
+
+#portfolio .product .envelope {
+    position: relative;
+
+
+}
+
+#portfolio .product img {
+    width: 100%;
+}
+
+
+#portfolio .product .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.429);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 0.5s;
+
+
+}
+
+#portfolio .product .img-overlay:hover {
+
+    opacity: 1;
+}
+
+#portfolio .product .img-overlay img {
+
+    width: 17%;
+    padding-left: 5px;
+
+}
+
+
+/**** NUMBERS SECTION**/
+
+#numbers {
+
+    background-color: #f1f1f1;
+    margin: 30px 0;
+}
+
+#numbers .factor {
+    width: 25%;
+    text-align: center;
+    float: left;
+    padding: 40px 0;
+}
+
+#numbers .factor .num-img img {
+
+    width: 50px;
+    height: 50px;
+
+}
+
+#numbers .factor .num-info {
+
+    padding: 20px 0;
+    font-family: sans-serif;
+}
+
+
+#numbers .factor .num-info p {
+
+    padding: 15px 0;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.662);
+    font-size: 16px;
+
+}
+
+
+/****FEEDBACK STYLE**********/
+
+
+
+#feedback .client {
+    background-color: #f1f1f1;
+    padding: 50px;
+    width: 70%;
+    margin: 50px auto;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+#feedback .client .client-info {
+    width: 85%;
+    float: left;
+}
+
+#feedback .client .client-info h3 {
+
+    padding-left: 30px;
+    font-family: sans-serif;
+    color: #555;
+    font-size: 20px;
+
+
+}
+
+#feedback .client .client-info p {
+    padding: 20px 30px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.716);
+    font-style: italic;
+    font-family: sans-serif;
+
+}
+
+#feedback .client .client-img .triangle {
+
+    width: 0;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 100px solid transparent;
+    border-top: 100px solid #ff305b;
+    z-index: 0;
+
+}
+
+#feedback .client .client-img .triangle2 {
+
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 100px solid transparent;
+    border-left: 100px solid #ff305b;
+    z-index: 0;
+
+
+}
+
+#feedback .client .client-img {
+    float: left;
+    width: 15%;
+
+
+}
+
+#feedback .client .client-img img {
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+#feedback .client .client-info .rate {
+    padding-left: 35px;
+    width: 100px;
+    height: 50px;
+
+
+}
+
+#feedback .client .client-info img {
+    width: 100%;
+
+
+}
+
+/*************Our Blog STYLE**********/
+#blog {
+
+
+    background-color: #f1f1f1;
+    padding: 40px 0;
+    margin: 30px 0;
+}
+
+#blog .blogaia {
+
+    width: 33.333%;
+    float: left;
+    padding: 30px 15px;
+
+
+
+}
+
+#blog .blogaia .layer {
+
+    background-color: white;
+}
+
+#blog .blogaia .blogaia-img iframe {
+    width: 100%;
+
+
+}
+
+#blog .blogaia .blogaia-img img {
+
+
+    width: 100%;
+}
+
+#blog .blogaia .blogaia-info {
+    font-family: sans-serif;
+}
+
+#blog .blogaia .blogaia-info p {
+    color: rgba(0, 0, 0, 0.715);
+    font-size: 16px;
+    line-height: 23px;
+}
+
+#blog .blogaia .blogaia-info a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.777);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 0.4s;
+}
+
+#blog .blogaia .blogaia-info a:hover {
+
+    color: #ff305b;
+}
+
+#blog .blogaia .blogaia-info .read-more {
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+#blog .blogaia .blogaia-info h2 {
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+#blog .blogaia .blogaia-info img {
+
+    width: 15px;
+    height: 15px;
+
+
+}
+
+/*******contact US************/
+#contact {
+    margin: 30px 0;
+}
+
+#contact .contact-us {
+    width: 65%;
+    margin: auto;
+
+}
+
+#contact .contact-us .include {
+    width: 50%;
+    padding: 15px;
+    float: left;
+
+}
+
+#contact .contact-us input,
+textarea {
+
+    padding: 10px 5px;
+    border-radius: 4px;
+    border: rgba(128, 128, 128, 0.395) 1px solid;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 2px 0px;
+}
+
+#contact .contact-us input:focus {
+    outline: none;
+    border: 1px solid red;
+}
+
+#contact .contact-us textarea:focus {
+    outline: none;
+    border: 1px solid red;
+}
+
+#contact .contact-us .include input {
+    width: 100%;
+
+}
+
+#contact .contact-us .subject,
+.comment {
+
+    width: 100%;
+    padding: 15px;
+}
+
+#contact .contact-us .subject input,
+textarea {
+    width: 100%;
+
+}
+
+#contact .contact-us form button {
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: #ff305b;
+    padding: 15px 18px;
+    margin: 20px 0 3px 15px;
+    border: transparent;
+    border-radius: 5px;
+    color: white;
+    transition: all 0.5s;
+
+}
+
+#contact .contact-us form button:hover {
+
+
+    background-color: red;
+}
+
+/******************Footer******************/
+
+.end {
+    background-color: #333333;
+    text-align: center;
+    padding: 10px 0;
+
+
+}
+
+.end p {
+    font-family: sans-serif;
+    color: white;
+    padding: 20px 0;
+    font-size: 13px;
+
+}
+
+.end .icons img {
+    width: 60px;
+    height: 65px;
+    padding: 20px 10px 5px 10px;
+
+}
+
+.end span a {
+
+    color: #ff305b;
+    text-decoration: none;
+
+}
+
+.end span a:hover {
+
+    text-decoration: underline;
+}
+
+
+
+/**********************MEDIA Queries*******************/
+
+
+@media screen and (max-width: 600px) {
+   
+    #home {
+        background-image: url(img/slider/beg.jpg);
+        background-size:  995px 650px;
+       
+    
+    
+    }
+   
+    #home .navbar .elements {
+        display: none;
+    }
+
+
+    /******************* service**************/
+    #services .service {
+        width: 100%;
+
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #services .service .service-info p {
+
+
+        padding: 10px 20px;
+    }
+
+    /*****************blog*******************/
+
+    #blog .blogaia {
+
+        width: 100%;
+
+    }
+
+    /*************about section*****************/
+    .container .about-img,
+    .container .about-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container .about-info li {
+
+        font-size: 16px;
+    }
+
+    /************portfolio**************/
+    #portfolio .product {
+        width: 100%;
+
+    }
+
+    /*************numbers section***************/
+
+    #numbers .factor {
+
+        width: 100%;
+
+    }
+
+    /*************FEEDBACK***************/
+    #feedback .client .client-img,
+    .client-img {
+
+        width: 100%;
+    }
+
+    #feedback .client .client-info p {
+
+
+        padding: 20px 0;
+        line-height: 20px;
+
+    }
+
+    /*************Contact Us***************/
+    #contact .contact-us {
+
+
+        width: 80%;
+    }
+
+    #contact .contact-us .include {
+
+        width: 100%;
+    }
+}
+
+/*********************** (max-width: 768) *******************/
+
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+
+    #home .navbar .elements {
+        display: none;
+    }
+
+    #services .service {
+        width: 50%;
+
+    }
+/*************about***************/
+    .about-img,
+    .container .about-info {
+
+      
+        text-align: center;
+    }
+
+    .container .about-info li {
+
+        font-size: 16px;
+    }
+
+
+ /*************FEEDBACK***************/
+
+
+    #feedback .client .client-img,
+    .client-img {
+
+        width: 100%;
+    }
+
+    #feedback .client .client-info p {
+
+
+        padding: 20px 0;
+        line-height: 20px;
+
+    }
+
+    
+    /*************numbers section***************/
+
+    #numbers .factor {
+
+        width: 50%;
+    }
+
+     /************portfolio**************/
+     #portfolio .product {
+        width: 50%;
+
+    }
+ /*****************blog*******************/
+
+ #blog .blogaia {
+
+    width: 100%;
+    padding: 0 50px;
+    margin: 15px 0;
+
+}
+
+#blog .blogaia .blogaia-info p{
+   padding: 15px 20px;
+
+}
+
+/*************Contact Us***************/
+#contact .contact-us {
+
+
+    width: 80%;
+}
+
+#contact .contact-us form {
+
+text-align: center;
+
+
+}
+
+
+#contact .contact-us .include {
+
+    width: 100%;
+}
+
+}
+
+                                                 /*********************** (max-width: 992) *******************/
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    #home .navbar .elements {
+        display: none;
+    }
+
+    #services .service {
+        width: 50%;
+
+    }
+
+
+/*************FEEDBACK***************/
+
+
+#feedback .client .client-img,
+.client-img {
+
+    width: 100%;
+}
+
+#feedback .client .client-info p {
+
+
+    padding: 20px 0;
+    line-height: 20px;
+
+}
+
+}
